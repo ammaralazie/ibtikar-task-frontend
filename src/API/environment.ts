@@ -1,13 +1,13 @@
-const developmentUrl={
-    url:'http://127.0.0.1',
-    port:'8000',
-    prefix:'api'
-}
-
-// const productiontUrl={
-//     url:'http://172.24.50.5',
-//     port:'3004',
+// const developmentUrl={
+//     url:'http://127.0.0.1',
+//     port:'8000',
 //     prefix:'api'
 // }
 
-export default developmentUrl
+const productiontUrl={
+    url:'https://ibtikartask-silent-water-3317.fly.dev',
+    port:null,
+    prefix:'api'
+}
+
+export default productiontUrl
