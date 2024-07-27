@@ -11,7 +11,7 @@ export default function handleError(_err: any) {
     console.error(_err)
 
     return new Promise((resolve) => {
-        if (_err?.response?.status === 422) {
+        if (_err?.response?.status === 422 || _err?.response?.status === 403) {
             console.log("data : ", _err?.response?.data)
             const payload = {
                 color: 'warning',
